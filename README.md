@@ -21,6 +21,9 @@ distribution u:
 
 The parameter lambda controls the trade-off balance between utility (the effectiveness of the generated output) and privacy  (the protection of sensitive information).
 
+![BreadcrumbsDP-Decoding-in-LLM](https://github.com/OdedMous/DP-Decoding-in-LLM/blob/main/Utility-privacy%20tradeoff%20example.png)
+
+
 ## My Experiments
 
 ![BreadcrumbsDP-Decoding-in-LLM](https://github.com/OdedMous/DP-Decoding-in-LLM/blob/main/Utility-privacy%20tradeoff.png)
