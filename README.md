@@ -16,6 +16,9 @@ The paper **"Differentially Private Decoding in Large Language Models"**, author
 This method applies linear interpolation between the original distribution q and the uniform
 distribution u:
 
+![BreadcrumbsDP-Decoding-in-LLM](https://github.com/OdedMous/DP-Decoding-in-LLM/blob/main/perturbatiation%20method.png)
+
+
 The parameter lambda controls the trade-off balance between utility (the effectiveness of the generated output) and privacy  (the protection of sensitive information).
 
 ## My Experiments
