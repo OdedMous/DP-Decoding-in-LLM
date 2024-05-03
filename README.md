@@ -19,15 +19,20 @@ distribution u:
 ![BreadcrumbsDP-Decoding-in-LLM](https://github.com/OdedMous/DP-Decoding-in-LLM/blob/main/perturbatiation%20method.png)
 
 
-The parameter lambda controls the trade-off balance between utility (the effectiveness of the generated output) and privacy  (the protection of sensitive information).
+The parameter lambda controls the trade-off balance between utility (the effectiveness of the generated output) and privacy  (the protection of sensitive information). See an example below:
 
 ![BreadcrumbsDP-Decoding-in-LLM](https://github.com/OdedMous/DP-Decoding-in-LLM/blob/main/Utility-privacy%20tradeoff%20example.png)
 
 
 ## My Experiments
 
+**Experiment 1:** Sentence Complement task (using  GPT-2 model)
+
+T is the number of predicted tokens.
+
+
 ![BreadcrumbsDP-Decoding-in-LLM](https://github.com/OdedMous/DP-Decoding-in-LLM/blob/main/Utility-privacy%20tradeoff.png)
 
-
+**Experiment 2:** Visual QA task (using ViLT model)
 
 ![BreadcrumbsDP-Decoding-in-LLM](https://github.com/OdedMous/DP-Decoding-in-LLM/blob/main/word%20probabilities.png)
