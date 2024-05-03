@@ -6,6 +6,8 @@
 
 Large language models are pre-trained on a vast amount of public data collected from the Internet, which very likely contains private or sensitive information. Combined with the fact that large models tend to memorize training data, this scenario poses a potential risk of data leakage.
 
+![BreadcrumbsDP-Decoding-in-LLM](https://github.com/OdedMous/DP-Decoding-in-LLM/blob/main/info%20and%20memo%20is%20leakage.png)
+
 Differential privacy (DP) is a paradigm that can help in this regard. In the realm of AI models, this method is usually applied during the training phase, but due to the cost of re-training a large model, it is possible to incorporate it at inference time only.
 
 ## Method
