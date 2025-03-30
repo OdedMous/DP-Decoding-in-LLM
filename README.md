@@ -14,7 +14,7 @@ Differential privacy (DP) is a paradigm that can help in this regard. In the rea
 
 Recall that during inference time, the LLM generates text token by token. At each step, it selects the next token based on the probability distribution it has created over the vocabulary. This process is known as the "decoding strategy". Various decoding strategies exist, with one basic approach being to simply sample a word according to this distribution. 
 
-The paper **"Differentially Private Decoding in Large Language Models"** authored by Majmudar, Jimit, et al. (2022), proposes a straightforward perturbation approach to this decoding strategy. 
+The paper **"Differentially Private Decoding in Large Language Models"** (Majmudar, et al., 2022), proposes a straightforward perturbation approach to this decoding strategy. 
 This method applies linear interpolation between the original distribution q and the uniform
 distribution u:
 
